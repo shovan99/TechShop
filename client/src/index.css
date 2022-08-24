@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Ubuntu&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif !important;
+  font-family: 'Ubuntu', sans-serif !important;
+  background-color: #f5eec2 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar-brand {
+  letter-spacing: 3px;
+  color: #f2f2f2;
+}
+
+.navbar-brand-logo {
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+}
+
+.navbar-brand:hover {
+	color: #c8d8e4
+}
+
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars {
+  color: #f5eec2;
+}
+
+.navbar-scrolled .nav-link,
+.navbar-scrolled .fa-bars {
+  color: #f5eec2;
+}
+
+.navbar-scrolled {
+  background-color: #f5eec2;
+}
+
+.inputClass {
+  background-color: #f5eec2 !important;
+  border: 2px solid #416a59 !important;
+}
+
+.buttonClass {
+  background-color: #416a59 !important;
+  color: #f5eec2 !important;
+}
+
+
+.headingClass {
+  color: #416a59 !important;
+}
+
+/* .adminDashboard {
+  background-image: url("https://cdn.dribbble.com/users/17825/screenshots/2863060/total-followers-1.gif");
+  background-position: center center;
+  background-attachment: fixed;
+  height: 96vh;
+  background-repeat: inherit;
+} */
+
+.adminDashboardButtonClass {
+  background-color: #f5eec2 !important;
+  width: 10vw !important;
+}
+
+
+.userDashboardImage {
+  width: 100%;
+  height: 100%
+}
+
+.bg-black {
+  background: #000
+}
+
+.skill-block {
+  width: 30%
+}
+
+@media (min-width: 991px) and (max-width:1200px) {
+  .skill-block {
+      padding: 32px !important
+  }
+}
+
+@media (min-width: 1200px) {
+  .skill-block {
+      padding: 56px !important
+  }
+}
+
+body {
+  background-color: #eeeeee
+}
